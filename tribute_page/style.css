@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 2);
+    background-color: rgb(241, 230, 230);
+
+    
+}
+.container{
+    max-width: 90rem;
+    margin:  2rem auto;
+    padding: opx 2rem;
+
+
+}
+.header{
+    padding: 2rem;
+    font-size: 30px;
+    color:rgb(15, 15, 15);
+    text-align: center;
+    
+
+    margin: 1rem 0px;
+}
+.header .tittle{
+    margin-bottom: 1rem;
+
+}
+header .tittle:hover{
+    transform: scale(1.1);
+    color:orangered;
+    
+    
+}
+.Tribute{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 77rem;
+    margin: 0px auto;
+    background-color: rgb(207, 12, 12);
+    color: black;
+    align-items: center;
+    position: relative;
+    align-items: center;
+
+
+}
+.Tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.Tribute blockquote:hover{
+    transform: scale(1.1);
+    color: blue;
+    background-color: or;
+}
+
+.Tribute img{
+    max-width: 100%;
+}
+ 
+.Tribute img:hover{
+    transform: scale(1.1);
+    color: blue;
+    
+}
+
+
+
+.bio{
+    margin: 2rem;
+    align-items: center;
+    padding: 0px 0.5rem;
+    color: rgb(3, 3, 3);
+    max-width: 40rem;
+    
+    margin: 30px;
+}
+.bio h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    display: flex;
+    line-height: 1.3;
+    align-items: center;
+}
+
+
+.bio P{
+    font-size: 1.5rem;
+    margin-right: 50px;
+    display: flex;
+    
+    line-height: 1.4;
+display: flex;
+    align-items: center;
+}
+.bio hr{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
